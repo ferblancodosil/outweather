@@ -1,0 +1,29 @@
+.accordion {
+    .item {
+        background-color: rgb(197, 216, 211);
+        margin-bottom: 5px;
+        padding: 10px 20px;
+
+        .title {
+            color: goldenrod;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+            
+        .content {
+            color: rgb(131, 115, 74);
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+            &.show {
+                height: auto;
+                max-height: 9999px;
+                transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+            }
+        }
+    }
+}
+  
+  

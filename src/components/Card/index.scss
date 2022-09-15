@@ -1,0 +1,9 @@
+.card {
+    border-radius: 12px;
+    box-shadow: 2px 2px 2px 1px rgba($color: #efefef, $alpha: .6);
+    border: #efefef solid 1px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
